@@ -1,0 +1,95 @@
+animacion
+https://animista.net/
+https://xsgames.co/animatiss/
+https://animate.style/
+https://atroposjs.com/
+https://keyframes.app/animate/
+https://www.transition.style/
+https://waitanimate.wstone.uk/ -> keyframes
+http://canianimate.com/ -> can animate?
+
+
+test page
+
+ui libraries
+https://mui.com/
+https://ant.design/
+https://chakra-ui.com/
+https://ui.shadcn.com/
+https://nextui.org/
+https://www.material-tailwind.com/
+https://tailkits.com/components/
+
+CSS
+https://baumannzone.github.io/cursores-css/ -> cursores de css
+
+https://accordionslider.com/ -> acordion 
+https://jonsuh.com/hamburgers/ -> hamburger
+https://3dbookcovergenerator.netlify.app/ -> 3D book
+https://loading.io/css/ -> Css loaders
+https://html-css-js.com/css/ Css tools
+https://www.fluid-type-scale.com/ fluid type scale calculator (font)
+https://modern-fluid-typography.vercel.app/ -> fluid typography
+
+
+
+
+https://uiverse.io/ -> Botones
+https://www.cssbuttongenerator.com/ -> Botones
+
+https://cssgradient.io/gradient-backgrounds/ -> bg gradiente
+https://bgjar.com/ -> bg 
+https://coolbackgrounds.io/ -> bg
+https://www.svgbackgrounds.com/ -> bg
+
+https://pattern.monster/ -> bg patterns
+https://www.visiwig.com/patterns/ -> bg patterns
+
+
+https://www.joshwcomeau.com/gradient-generator/ -> gradient
+https://www.cssfilters.co/ -> css filters
+https://cssduotone.com/ -> css image filters
+
+https://ui.glass/generator/ -> glass
+
+https://www.joshwcomeau.com/shadow-palette/ -> sombras
+https://getcssscan.com/css-box-shadow-examples -> sombras
+
+https://cssgrid-generator.netlify.app/ -> grid generator
+https://flexboxpatterns.com/ -> felx box patterns
+https://phuoc.ng/collection/css-layout/ -> layouts
+
+https://www.svgwaves.io/?ref=undesign -> svg waves
+https://www.shapedivider.app/ -> css waves
+https://app.haikei.app/ -> css particles
+https://9elements.github.io/fancy-border-radius/ -> border raidus
+
+https://bennettfeely.com/clippy/ -> custom img figure
+
+
+https://fjolt.com/article/css-pixel-art-generator -> pixel art generator
+
+
+CheatSheet
+
+https://lenguajehtml.com/html/introduccion/tabla-periodica-html5/ -> html
+https://overapi.com/javascript -> javascript
+https://tailwindcomponents.com/cheatsheet/ -> tailwind
+https://gitcheatsheet.org/search -> git
+https://shortcuts.design/ -> app shortcuts
+https://codehouse-app.netlify.app/ -> varios
+https://devhints.io/react -> varios
+
+
+
+
+
+
+
+
+
+
+
+
+
+

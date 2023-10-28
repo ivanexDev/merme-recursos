@@ -1,0 +1,125 @@
+---
+interface Props {
+	title: string;
+  data:SubSecData[]
+}
+
+type SubSecData = {
+  link: string
+  titulo: string
+}
+
+const { title, data } = Astro.props;
+
+console.log(data)
+---
+<script>
+
+  function sayHello(e:string){
+    const ul = document.querySelector('.' + e); 
+  if (ul) {
+    ul.classList.toggle("active");
+  }
+  }
+
+  const buttons = document.querySelectorAll('[data-open-accordion]');
+  buttons.forEach((button) => {
+    const brother = button.nextElementSibling?.className
+    if(brother){
+      button.addEventListener('click', (e) => sayHello(brother));
+    }
+  });
+</script> 
+
+  <section>
+    <h2 data-open-accordion>{title}</h2>
+    <ul class={title} data-accordion-ul>
+      {data.map(site=>{
+        return <li><a href={site.link} target="_blank">{site.titulo}</a></li>
+      })}
+    </ul>
+  </section>
+<style>
+
+  @font-face {
+    font-family: "Iosevka";
+    src: url('/IosevkaNerdFont-Regular.ttf');
+  }
+  section{
+    height: fit-content;
+    margin-bottom: 20px;
+  }
+
+  h2, li {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  	h2{
+      font-size: 20px;
+      cursor: pointer;
+      margin: 0;
+    }
+
+    h2:hover::before, h2:hover::after {
+      color: rgb(170, 198, 246);
+    }
+
+    h2::before{
+      content: "<h2>";
+      margin-right: 20px;
+      font-family: 'La Belle Aurore', cursive;
+      color: rgb(247, 104, 192);
+    }
+    h2::after{
+      content: "</h2>";
+      margin-left: 20px;
+      font-family: 'La Belle Aurore', cursive;
+      color: rgb(247, 104, 192);
+    }
+
+    ul{
+      margin: 0;
+		max-height: 0;
+		overflow: hidden;
+		transition: 0.3s ease-in-out;
+		list-style: none;
+    }
+
+    a{
+      text-decoration: none;
+      color: white;
+    }
+
+    a:visited{
+      color: white;
+    }
+
+    .active{
+    max-height: 800px;
+    }
+
+    li{
+      font-size: 16px;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    li::before{
+      content: "<li>";
+      font-size: 25px;
+      margin-right: 15px;
+      font-family: 'La Belle Aurore', cursive;
+      color: rgb(247, 104, 192);
+    }
+
+    li::after{
+      content: "</li>";
+      font-size: 25px;
+      margin-left: 15px;
+      font-family: 'La Belle Aurore', cursive;
+      color: rgb(247, 104, 192);
+    }
+
+    li:hover::before, li:hover::after {
+      color: rgb(170, 198, 246);
+    }
+</style>
